@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DB033F22462B7A100B54840 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB033F12462B7A100B54840 /* AppDelegate.m */; };
+		7DB033F52462B7A100B54840 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB033F42462B7A100B54840 /* SceneDelegate.m */; };
+		7DB033F82462B7A100B54840 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB033F72462B7A100B54840 /* ViewController.m */; };
+		7DB033FB2462B7A100B54840 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DB033F92462B7A100B54840 /* Main.storyboard */; };
+		7DB033FD2462B7A600B54840 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DB033FC2462B7A600B54840 /* Assets.xcassets */; };
+		7DB034002462B7A600B54840 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DB033FE2462B7A600B54840 /* LaunchScreen.storyboard */; };
+		7DB034032462B7A600B54840 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB034022462B7A600B54840 /* main.m */; };
+		7DB0340B2462B8A900B54840 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB0340A2462B8A900B54840 /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7DB034232462B9CD00B54840 /* NoHightStatusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB0340D2462B9CD00B54840 /* NoHightStatusButton.m */; };
+		7DB034242462B9CD00B54840 /* TextAttributeString.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB0340F2462B9CD00B54840 /* TextAttributeString.m */; };
+		7DB034252462B9CD00B54840 /* EmotionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DB034102462B9CD00B54840 /* EmotionCollectionViewCell.xib */; };
+		7DB034262462B9CD00B54840 /* EmotionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB034122462B9CD00B54840 /* EmotionModel.m */; };
+		7DB034272462B9CD00B54840 /* EmotionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB034142462B9CD00B54840 /* EmotionManager.m */; };
+		7DB034282462B9CD00B54840 /* NSString+Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB034152462B9CD00B54840 /* NSString+Emoji.m */; };
+		7DB034292462B9CD00B54840 /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7DB034172462B9CD00B54840 /* Emoticons.bundle */; };
+		7DB0342A2462B9CD00B54840 /* EmotionCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB034182462B9CD00B54840 /* EmotionCollectionViewCell.m */; };
+		7DB0342B2462B9CD00B54840 /* URLSeletedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB034192462B9CD00B54840 /* URLSeletedLabel.m */; };
+		7DB0342C2462B9CD00B54840 /* UIView+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB0341B2462B9CD00B54840 /* UIView+XMGExtension.m */; };
+		7DB0342D2462B9CD00B54840 /* EmotionPackAge.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB0341E2462B9CD00B54840 /* EmotionPackAge.m */; };
+		7DB0342E2462B9CD00B54840 /* EmotionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB034202462B9CD00B54840 /* EmotionViewController.m */; };
+		7DB034302462B9D600B54840 /* d_aini@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DB0342F2462B9D600B54840 /* d_aini@2x.png */; };
+		7DB0343E2462B9EE00B54840 /* ResultAttributeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB034342462B9ED00B54840 /* ResultAttributeModel.m */; };
+		7DB034402462B9EE00B54840 /* TextAttributeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB034372462B9EE00B54840 /* TextAttributeModel.m */; };
+		7DB034412462B9EE00B54840 /* TextRang.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB034382462B9EE00B54840 /* TextRang.m */; };
+		7DB034452462BAC000B54840 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DB034442462BAC000B54840 /* libicucore.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7DB033ED2462B7A100B54840 /* BPAttributeModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BPAttributeModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DB033F02462B7A100B54840 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7DB033F12462B7A100B54840 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7DB033F32462B7A100B54840 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		7DB033F42462B7A100B54840 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		7DB033F62462B7A100B54840 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7DB033F72462B7A100B54840 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7DB033FA2462B7A100B54840 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DB033FC2462B7A600B54840 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DB033FF2462B7A600B54840 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7DB034012462B7A600B54840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DB034022462B7A600B54840 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DB034092462B8A900B54840 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		7DB0340A2462B8A900B54840 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		7DB0340D2462B9CD00B54840 /* NoHightStatusButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoHightStatusButton.m; sourceTree = "<group>"; };
+		7DB0340E2462B9CD00B54840 /* UIView+XMGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XMGExtension.h"; sourceTree = "<group>"; };
+		7DB0340F2462B9CD00B54840 /* TextAttributeString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextAttributeString.m; sourceTree = "<group>"; };
+		7DB034102462B9CD00B54840 /* EmotionCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmotionCollectionViewCell.xib; sourceTree = "<group>"; };
+		7DB034112462B9CD00B54840 /* URLSeletedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLSeletedLabel.h; sourceTree = "<group>"; };
+		7DB034122462B9CD00B54840 /* EmotionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmotionModel.m; sourceTree = "<group>"; };
+		7DB034132462B9CD00B54840 /* EmotionPackAge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmotionPackAge.h; sourceTree = "<group>"; };
+		7DB034142462B9CD00B54840 /* EmotionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmotionManager.m; sourceTree = "<group>"; };
+		7DB034152462B9CD00B54840 /* NSString+Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Emoji.m"; sourceTree = "<group>"; };
+		7DB034162462B9CD00B54840 /* EmotionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmotionViewController.h; sourceTree = "<group>"; };
+		7DB034172462B9CD00B54840 /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoticons.bundle; sourceTree = "<group>"; };
+		7DB034182462B9CD00B54840 /* EmotionCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmotionCollectionViewCell.m; sourceTree = "<group>"; };
+		7DB034192462B9CD00B54840 /* URLSeletedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLSeletedLabel.m; sourceTree = "<group>"; };
+		7DB0341A2462B9CD00B54840 /* TextAttributeString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextAttributeString.h; sourceTree = "<group>"; };
+		7DB0341B2462B9CD00B54840 /* UIView+XMGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMGExtension.m"; sourceTree = "<group>"; };
+		7DB0341C2462B9CD00B54840 /* NoHightStatusButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoHightStatusButton.h; sourceTree = "<group>"; };
+		7DB0341D2462B9CD00B54840 /* EmotionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmotionModel.h; sourceTree = "<group>"; };
+		7DB0341E2462B9CD00B54840 /* EmotionPackAge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmotionPackAge.m; sourceTree = "<group>"; };
+		7DB0341F2462B9CD00B54840 /* EmotionCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmotionCollectionViewCell.h; sourceTree = "<group>"; };
+		7DB034202462B9CD00B54840 /* EmotionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmotionViewController.m; sourceTree = "<group>"; };
+		7DB034212462B9CD00B54840 /* NSString+Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Emoji.h"; sourceTree = "<group>"; };
+		7DB034222462B9CD00B54840 /* EmotionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmotionManager.h; sourceTree = "<group>"; };
+		7DB0342F2462B9D600B54840 /* d_aini@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "d_aini@2x.png"; sourceTree = "<group>"; };
+		7DB034322462B9ED00B54840 /* ResultAttributeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultAttributeModel.h; sourceTree = "<group>"; };
+		7DB034342462B9ED00B54840 /* ResultAttributeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultAttributeModel.m; sourceTree = "<group>"; };
+		7DB034352462B9EE00B54840 /* TextRang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextRang.h; sourceTree = "<group>"; };
+		7DB034372462B9EE00B54840 /* TextAttributeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextAttributeModel.m; sourceTree = "<group>"; };
+		7DB034382462B9EE00B54840 /* TextRang.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextRang.m; sourceTree = "<group>"; };
+		7DB0343B2462B9EE00B54840 /* TextAttributeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextAttributeModel.h; sourceTree = "<group>"; };
+		7DB034442462BAC000B54840 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DB033EA2462B7A100B54840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB034452462BAC000B54840 /* libicucore.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DB033E42462B7A100B54840 = {
+			isa = PBXGroup;
+			children = (
+				7DB033EF2462B7A100B54840 /* BPAttributeModule */,
+				7DB033EE2462B7A100B54840 /* Products */,
+				7DB034432462BAC000B54840 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7DB033EE2462B7A100B54840 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DB033ED2462B7A100B54840 /* BPAttributeModule.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB033EF2462B7A100B54840 /* BPAttributeModule */ = {
+			isa = PBXGroup;
+			children = (
+				7DB033F02462B7A100B54840 /* AppDelegate.h */,
+				7DB033F12462B7A100B54840 /* AppDelegate.m */,
+				7DB033F32462B7A100B54840 /* SceneDelegate.h */,
+				7DB033F42462B7A100B54840 /* SceneDelegate.m */,
+				7DB033F62462B7A100B54840 /* ViewController.h */,
+				7DB033F72462B7A100B54840 /* ViewController.m */,
+				7DB034322462B9ED00B54840 /* ResultAttributeModel.h */,
+				7DB034342462B9ED00B54840 /* ResultAttributeModel.m */,
+				7DB034352462B9EE00B54840 /* TextRang.h */,
+				7DB034382462B9EE00B54840 /* TextRang.m */,
+				7DB0343B2462B9EE00B54840 /* TextAttributeModel.h */,
+				7DB034372462B9EE00B54840 /* TextAttributeModel.m */,
+				7DB0340C2462B9CD00B54840 /* Emotion */,
+				7DB034092462B8A900B54840 /* RegexKitLite.h */,
+				7DB0340A2462B8A900B54840 /* RegexKitLite.m */,
+				7DB0342F2462B9D600B54840 /* d_aini@2x.png */,
+				7DB033F92462B7A100B54840 /* Main.storyboard */,
+				7DB033FC2462B7A600B54840 /* Assets.xcassets */,
+				7DB033FE2462B7A600B54840 /* LaunchScreen.storyboard */,
+				7DB034012462B7A600B54840 /* Info.plist */,
+				7DB034022462B7A600B54840 /* main.m */,
+			);
+			path = BPAttributeModule;
+			sourceTree = "<group>";
+		};
+		7DB0340C2462B9CD00B54840 /* Emotion */ = {
+			isa = PBXGroup;
+			children = (
+				7DB0340D2462B9CD00B54840 /* NoHightStatusButton.m */,
+				7DB0340E2462B9CD00B54840 /* UIView+XMGExtension.h */,
+				7DB0340F2462B9CD00B54840 /* TextAttributeString.m */,
+				7DB034102462B9CD00B54840 /* EmotionCollectionViewCell.xib */,
+				7DB034112462B9CD00B54840 /* URLSeletedLabel.h */,
+				7DB034122462B9CD00B54840 /* EmotionModel.m */,
+				7DB034132462B9CD00B54840 /* EmotionPackAge.h */,
+				7DB034142462B9CD00B54840 /* EmotionManager.m */,
+				7DB034152462B9CD00B54840 /* NSString+Emoji.m */,
+				7DB034162462B9CD00B54840 /* EmotionViewController.h */,
+				7DB034172462B9CD00B54840 /* Emoticons.bundle */,
+				7DB034182462B9CD00B54840 /* EmotionCollectionViewCell.m */,
+				7DB034192462B9CD00B54840 /* URLSeletedLabel.m */,
+				7DB0341A2462B9CD00B54840 /* TextAttributeString.h */,
+				7DB0341B2462B9CD00B54840 /* UIView+XMGExtension.m */,
+				7DB0341C2462B9CD00B54840 /* NoHightStatusButton.h */,
+				7DB0341D2462B9CD00B54840 /* EmotionModel.h */,
+				7DB0341E2462B9CD00B54840 /* EmotionPackAge.m */,
+				7DB0341F2462B9CD00B54840 /* EmotionCollectionViewCell.h */,
+				7DB034202462B9CD00B54840 /* EmotionViewController.m */,
+				7DB034212462B9CD00B54840 /* NSString+Emoji.h */,
+				7DB034222462B9CD00B54840 /* EmotionManager.h */,
+			);
+			path = Emotion;
+			sourceTree = "<group>";
+		};
+		7DB034432462BAC000B54840 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DB034442462BAC000B54840 /* libicucore.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DB033EC2462B7A100B54840 /* BPAttributeModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DB034062462B7A600B54840 /* Build configuration list for PBXNativeTarget "BPAttributeModule" */;
+			buildPhases = (
+				7DB033E92462B7A100B54840 /* Sources */,
+				7DB033EA2462B7A100B54840 /* Frameworks */,
+				7DB033EB2462B7A100B54840 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BPAttributeModule;
+			productName = BPAttributeModule;
+			productReference = 7DB033ED2462B7A100B54840 /* BPAttributeModule.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DB033E52462B7A100B54840 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Apple Inc.";
+				TargetAttributes = {
+					7DB033EC2462B7A100B54840 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 7DB033E82462B7A100B54840 /* Build configuration list for PBXProject "BPAttributeModule" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DB033E42462B7A100B54840;
+			productRefGroup = 7DB033EE2462B7A100B54840 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DB033EC2462B7A100B54840 /* BPAttributeModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DB033EB2462B7A100B54840 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB034302462B9D600B54840 /* d_aini@2x.png in Resources */,
+				7DB034252462B9CD00B54840 /* EmotionCollectionViewCell.xib in Resources */,
+				7DB034002462B7A600B54840 /* LaunchScreen.storyboard in Resources */,
+				7DB033FD2462B7A600B54840 /* Assets.xcassets in Resources */,
+				7DB033FB2462B7A100B54840 /* Main.storyboard in Resources */,
+				7DB034292462B9CD00B54840 /* Emoticons.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DB033E92462B7A100B54840 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB0342A2462B9CD00B54840 /* EmotionCollectionViewCell.m in Sources */,
+				7DB034282462B9CD00B54840 /* NSString+Emoji.m in Sources */,
+				7DB034402462B9EE00B54840 /* TextAttributeModel.m in Sources */,
+				7DB033F82462B7A100B54840 /* ViewController.m in Sources */,
+				7DB033F22462B7A100B54840 /* AppDelegate.m in Sources */,
+				7DB034032462B7A600B54840 /* main.m in Sources */,
+				7DB034412462B9EE00B54840 /* TextRang.m in Sources */,
+				7DB0343E2462B9EE00B54840 /* ResultAttributeModel.m in Sources */,
+				7DB034232462B9CD00B54840 /* NoHightStatusButton.m in Sources */,
+				7DB034272462B9CD00B54840 /* EmotionManager.m in Sources */,
+				7DB0342E2462B9CD00B54840 /* EmotionViewController.m in Sources */,
+				7DB0340B2462B8A900B54840 /* RegexKitLite.m in Sources */,
+				7DB0342D2462B9CD00B54840 /* EmotionPackAge.m in Sources */,
+				7DB0342C2462B9CD00B54840 /* UIView+XMGExtension.m in Sources */,
+				7DB034262462B9CD00B54840 /* EmotionModel.m in Sources */,
+				7DB0342B2462B9CD00B54840 /* URLSeletedLabel.m in Sources */,
+				7DB034242462B9CD00B54840 /* TextAttributeString.m in Sources */,
+				7DB033F52462B7A100B54840 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7DB033F92462B7A100B54840 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DB033FA2462B7A100B54840 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7DB033FE2462B7A600B54840 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DB033FF2462B7A600B54840 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DB034042462B7A600B54840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7DB034052462B7A600B54840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DB034072462B7A600B54840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BPAttributeModule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.baipeng.BPAttributeModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DB034082462B7A600B54840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BPAttributeModule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.baipeng.BPAttributeModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DB033E82462B7A100B54840 /* Build configuration list for PBXProject "BPAttributeModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DB034042462B7A600B54840 /* Debug */,
+				7DB034052462B7A600B54840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DB034062462B7A600B54840 /* Build configuration list for PBXNativeTarget "BPAttributeModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DB034072462B7A600B54840 /* Debug */,
+				7DB034082462B7A600B54840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DB033E52462B7A100B54840 /* Project object */;
+}
